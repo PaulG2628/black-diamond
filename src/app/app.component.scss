@@ -1,0 +1,32 @@
+@import "../assets/fonts.scss";
+
+.toolbar-icon {
+  padding: 0 14px;
+}
+
+.toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 0, "GRAD" 0, "opsz" NaN;
+}
+
+.logo {
+  padding-right: 7px;
+}
+
+.shop-name {
+  font-family: "Railway-Bold", sans-serif;
+}
+
+.mat-toolbar-single-row {
+  padding: 0 25px 0 40px;
+}
+
+.main-content {
+  min-height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px 40px 40px;
+}
